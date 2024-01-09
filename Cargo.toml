@@ -1,0 +1,19 @@
+[package]
+name = "protocol"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+binary = {git = "https://github.com/gamesyncltd/BedrockUtils.git"}
+binary_derive = {git = "https://github.com/gamesyncltd/BedrockUtils.git"}
+commons = {git = "https://github.com/gamesyncltd/BedrockUtils.git"}
+bytes = {git = "https://github.com/gamesyncltd/bytes.git"}
+nbt = {git = "https://github.com/gamesyncltd/nbt.git"}
+nbt_derive = {git = "https://github.com/gamesyncltd/nbt.git"}
+tokio = {version = "1", features = ["full"]}
+byteorder = "1.4.3"
+log = "0.4.20"
+serde_json = "1.0.105"
+uuid = {version = "1.4.1", features = ["v8"]}
